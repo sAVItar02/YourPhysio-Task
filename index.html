@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>YourPhysio | Assignment</title>
+</head>
+
+<body>
+    <h1>YourPhysio | FrontEnd Challenge</h1>
+    <section class="main f-center">
+        <div class="date-form">
+            <form class="f-center">
+                <h3>Enter the start date of the week</h3>
+                <input type="date" name="from" id="from">
+                <button id="date-next">Next</button>
+            </form>
+        </div>
+
+        <div class="time-form hide f-center">
+            <form class="f-center">
+                <div class="head-container">
+                    <div class="form-head" style="margin-right: 75px;">Start Time</div>
+                    <div class="form-head">End Time</div>
+                </div>
+                <!-- This Buffer is used to append the time inputs with dates -->
+                <div class="input-buffer"></div>
+                <button type="submit" id="get-total">Get Total Hours</button>
+            </form>
+        </div>
+
+        <!-- This buffer is used to append total work hours -->
+        <div class="total-buffer"></div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
