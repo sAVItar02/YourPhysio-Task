@@ -5,4 +5,4 @@ To Run the tests
 2. Run npm i -D jest
 3. Run npm test
 
-Visit the site at: https://github.com/sAVItar02/YourPhysio-Task
+Visit the site at: https://savitar02.github.io/YourPhysio-Task/
